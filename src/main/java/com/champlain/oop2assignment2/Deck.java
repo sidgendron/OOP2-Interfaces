@@ -37,4 +37,8 @@ public class Deck implements CardSource {
         }
         return result.toString();
     }
+
+    public void sort() {
+        Collections.sort(aCards);
+    }
 }
